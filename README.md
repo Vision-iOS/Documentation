@@ -456,12 +456,12 @@ One can fall into the mistake of considering it inappropriate to have two featur
   <img src="https://user-images.githubusercontent.com/22590804/116418495-7aff7c00-a83c-11eb-94b5-233ddb5838c2.png">
 </p>
 
-The use of switches brings back to past experiences on the part of the user who can understand without problems whether it is enabled or disabled. The change of state of the switches is shown by means of an animation and an appropriate coloring (gray/green).  
+The use of switches brings back to past experiences on the part of the user who can understand without problems whether it is enabled or disabled. The change of state of the switches is shown through animation and an appropriate coloring (gray/green).  
 Next to the switches, information buttons have been inserted to allow the novice and/or general user to correctly use the *Analytics* and the *Tutorial*. In particular, the latter defines, as already expressed in the main documentation, an excellent aid to the user to fully understand the functionality of the application.
 
 ## Confidence Level
 Section structured in such a way as to make the user understand in a completely immediate way which option is active. The confidence level allows you to select the degree of reliability in the recognition of objects by the algorithm.  
-These options were introduced with regard to the **Personas** identified during the analysis of the user base to which the project idea is intended. A greater diversification of the potential of the recognition algorithm outlines greater choices by the corresponding users. For example, one user may choose to have only the most accurate results, while others may have many more but less relevant results.  
+These options were introduced about the **Personas** identified during the analysis of the user base to which the project idea is intended. Greater diversification of the potential of the recognition algorithm outlines greater choices by the corresponding users. For example, one user may choose to have only the most accurate results, while others may have many more but less relevant results.  
 The selection of the type of confidence used by the application is shown by using the check box that allows you to indicate the correct selection of the function. Furthermore, depending on the option selected, the relevant text below is updated providing an accurate explanation.
 
 ## About
@@ -475,12 +475,12 @@ For tests formative information below is a set of information considered relevan
 ## Training tests
 ### Tutorial
 
-Part of the tests were carried out on subjects who, through the Mapping of subjects had already been routed to the idea of ​​an object recognition app.  
+Part of the tests was carried out on subjects who, through the Mapping of subjects had already been routed to the idea of ​​an object recognition app.  
 It was therefore decided to broaden the target of users by inserting subjects made totally unaware of the project idea. The tests of the prototypes led some of the users to understand only partially the purpose of the application, that is, the idea of recognizing objects was understood but not that of being able to search for images quickly and quickly. Also some have found it difficult to justify the section for editing the shot image.  
 These issues have led to the construction of a tutorial that contains the idea and use of the application in four pages. Each page holds an easily recognizable logo, which tries to provoke the law of past experience, a title and a brief description. The tutorial is only offered to the user when the application is first opened in order to provide all the necessary information. All subsequent openings return to the main screen.
 
 ### Colors
-Although these were the first prototypes, test users found the screens to be completely bare and lacking in vitality. It was therefore decided to structure the prototype and the application on the basis of an adaptable background based on the type of theme (light/dark) active on the device. 
+Although these were the first prototypes, test users found the screens to be completely bare and lacking in vitality. It was therefore decided to structure the prototype and the application based on adaptable background based on the type of theme (light/dark) active on the device. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116422426-075f6e00-a840-11eb-9d2c-42a5f95e0847.png">
@@ -508,7 +508,7 @@ In this case we have tried to use two colors which in their meaning are contrast
 </p>
 
 Various problems emerged to conceive an icon that could represent the idea of the application using elements and shapes already known to users and to enclose them in a tiny space.  
-It was therefore decided to start with the basic concept of image, in expressing a notion of having to do with something that exploits an image. The classic icon representing the image is seen as a series of mountains and a circle representing the sun. In this case the sun takes the place of the widely known research icon.   
+It was therefore decided to start with the basic concept of the image, in expressing a notion of having to do with something that exploits an image. The classic icon representing the image is seen as a series of mountains and a circle representing the sun. In this case the sun takes the place of the widely known research icon.   
 The principle is to have users create an association on the basis of these representations, that is to express the concept of searching for an image, to operate with an image and high.  
 
 Obviously, there is no lack of reference to object recognition. It was not included in the icon as it would have resulted in an overhead and indefinite jumble of information that would only lead to confusion. Object recognition is entrusted to the name of the application: **Vision**.
@@ -536,7 +536,7 @@ In addition to the images for the test, one hundred and fifteen random images we
 All images (excluding the five random plates) are totally randomly sorted. This is because it was decided to make the photos of the dishes immediately available to be analyzed, while those containing the pizza were searched using the search function.  
 
 The scenario test encompasses the following tasks:
-- [Task 1]: Take the photo of the landscape.
+- [Task 1]: Take a photo of the landscape.
 - [Task 2]: Analyze the photo just taken, possibly modifying it and selecting the animals with precision.
 - [Task 3]: Access the photographic library through the application and analyze the photos of the dishes to obtain those with mushrooms.
 - [Task 4]: Search for the word pizza with the search method in the photo gallery.
@@ -555,10 +555,10 @@ The product evaluated in the summative test involves the use of the final produc
 ### Objectives of the evaluation
 The objectives pursued are:
 - Functionality: offer all the functionalities to the customer on the basis of the conceived idea.
-- Usability: Making the user experience simple as simple as possible.
+- Usability: Making the user experience simple as possible.
 - Reliability: performance level adaptable to older devices and fluidity in carrying out operations.
 - Efficiency: optimal management of space and time. As already discussed in All in one we preferred to balance towards more space but less time.
-- Portability: in terms of application this can also be made portable to platforms such as iPad, AppleTv, AppleWatch and possible other devices, but it always remains linked to the Apple environment.
+- Portability: in terms of application this can also be made portable to platforms such as iPad, AppleTv, AppleWatch and possibly other devices, but it always remains linked to the Apple environment.
 
 ### Methodology used
 Number of users who participated in the final product test: 20.   
@@ -568,7 +568,7 @@ Number of users who participated in testing phases for product modeling: 8.
 Users were divided into:
 - Inexperienced: users totally inexperienced in the use of new technologies or applications.
 - General: intermediate users able to understand the operation of an application without too many pretensions.
-- Experts: users able to quickly assimilate the correct use of an application and / or technology.
+- Experts: users able to quickly assimilate the correct use of an application and/or technology.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116423910-6376c200-a841-11eb-8f4e-5d8877229f71.png">

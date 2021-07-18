@@ -5,12 +5,12 @@ Development of a mobile application for the iOS platform based on object recogni
 
 ### Specific objective 
 Given an image, the objects present are recognized and shown to the user as sequences of strings that identify the objects. The user can use an image already in his library or take it right now.  
-Before analyzing the image, the user can make changes on it to better select the object to be recognized.The application must be able to save the image with the information of the objects recognized in the user's gallery without modifying and/or deleting the original image.  
-The photo gallery must be able to analyze the strings of the photos in order to show the user the images based on the search performed.
+Before analyzing the image, the user can make changes on it to better select the object to be recognized. The application must be able to save the image with the information of the objects recognized in the user's gallery without modifying and/or deleting the original image.  
+The photo gallery must be able to analyze the strings of the photos to show the user the images based on the search performed.
 
 ### Expected results
 The purpose of the application development must grant:  
-- Make searching more efficient by taking advantage of tags / strings saved as metadata in photos exported and saved by the application.
+- Make searching more efficient by taking advantage of tags/strings saved as metadata in photos exported and saved by the application.
 - Allow users to obtain information about an object or sets of objects they do not know.
 - Allow users to verify that an object or sets of objects match what they think they know.
 - Establish a basis to be able to use the application for other types of contexts (recognition of road signs, recognition of hazards, etc).
@@ -29,32 +29,32 @@ It is therefore assumed that the best development choice for an application is t
 In reality, the market share is not the only element that influences the development of an application, but there are additional reasons that lead to a development choice for smaller shares.
 
 ### Latest version
-IOS users are more likely to always keep their devices up to date. Although it may seem a completely irrelevant element for the development of an application, it can actually represent an excellent development point for iOS.  
+IOS users are more likely to always keep their devices up to date. Although it may seem a completely irrelevant element for the development of an application, it can represent an excellent development point for iOS.  
 This is because future enhancements of the application always cover the majority of users who have the latest version of the software. Normally a new software update from Apple brings significant new features and completely exclusive features only for devices that update to the latest version.  
 Therefore, always having users willing to update, it is possible to propose an application that changes and changes following the continuous flow of updates knowing that most users will be able to use them.  
 
-Instead with Android you can get to cut users from future updates as they do not support the improvements of the new updates. In fact, the disadvantage for these users is the total fragmentation of the various major updates as shown by the graphs.  
+Instead with Android, you can get to cut users from future updates as they do not support the improvements of the new updates. The disadvantage for these users is the total fragmentation of the various major updates as shown by the graphs.  
 
 #### iOS
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116373475-a8810100-a80d-11eb-8559-01126afb2c3a.jpg">
 </p>
-Updates in growing list of years: previous versions, iOS 12, iOS 13.
+Updates in a growing list of years: previous versions, iOS 12, iOS 13.
 
 #### Android
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116374444-92277500-a80e-11eb-8652-a675e1cf523f.jpg">
 </p>
-Updates in growing list of years: previous versions, Nougat, Oreo, Pie.
+Updates in a growing list of years: previous versions, Nougat, Oreo, Pie.
 
 ### User loyalty
-IOS users are more loyal to the manufacturer than owners of Android devices. A user who buys an Apple device is more likely to make future purchases from the same manufacturer. On Android it is much more complex also because there are many companies (Samsung, Oneplus, Xiaomi and others) that release devices based on Android but *customized* and therefore that can lead to compatibility problems with certain applications that must be optimized for the specific device.  
+IOS users are more loyal to the manufacturer than owners of Android devices. A user who buys an Apple device is more likely to make future purchases from the same manufacturer. On Android, it is much more complex also because there are many companies (Samsung, Oneplus, Xiaomi and others) that release devices based on Android but *customized* and therefore that can lead to compatibility problems with certain applications that must be optimized for the specific device.  
 
-This can be a strength for development on the iOS system, in fact it is more likely that users who download the application will keep it for longer than Android users.  
+This can be a strength for development on the iOS system, in fact, it is more likely that users who download the application will keep it for longer than Android users.  
 This makes the downloaded application unique and difficult to replace in the future.
 
 ### Demographics
-Several countries with the highest incomes, including the United States, some European countries and Australia, prefer iOS.  
+Several countries with the highest incomes, including the United States, some European countries, and Australia, prefer iOS.  
 On average, people who prefer iOS are younger than people who prefer Android.  
 Therefore, there is a target of people who are more inclined to adapt to the type of application and the novelties it entails.
 
@@ -64,35 +64,35 @@ Global gross revenue per app **only** in Q3 2019 is:
 - iOS: 14.2 billion.
 - Android: 7.7 billion.
 
-This is because the average iOS owner is willing to pay more to take advantage of a product knowing that it reflects the full potential and efficiency of the Apple system. Even if the application was developed for didactic purposes and for the total passion of a totally open code, the possibility of future development of applications whose income is an essential source for the development itself is not excluded.
+This is because the average iOS owner is willing to pay more to take advantage of a product knowing that it reflects the full potential and efficiency of the Apple system. Even if the application was developed for didactic purposes and the total passion of an open code, the possibility of future development of applications whose income is an essential source for the development itself is not excluded.
 
 ## Key elements
 Some fundamental elements for the preliminary development of the application have been discussed.
 
 ### Language
 The most obvious choice fell in proposing the application with the language of the device used.  
-However, this preference would have led to the development of several different learning models based on the nation and language used, counting all the possible idioms, idioms and possible words with different meanings based on the context used.  
-We therefore preferred to take advantage of a single model in the most influential and spoken language in the world, English.  
+However, this preference would have led to the development of several different learning models based on the nation and language used, counting all the possible idioms and possible words with different meanings based on the context used.  
+We, therefore, preferred to take advantage of a single model in the most influential and spoken language in the world, English.  
 
-It is easy to conclude that a solution to the language problem is to get all the strings of the recognized objects in English and subsequently translate them into the local language. This option was discarded as it would involve the application using data traffic to carry out the translation while the idea of developing the application is based on being able to use it in its entirety in any geographical environment, even totally free of signals and radio waves.  
-The possibility of integrating the entire linguistic dictionary locally has also been discarded since the application already holds the set of models for recognizing objects which lead to a large part of the memory occupied.
+It is easy to conclude that a solution to the language problem is to get all the strings of the recognized objects in English and subsequently translate them into the local language. This option was discarded as it would involve the application using data traffic to translate while the idea of developing the application is based on being able to use it in its entirety in any geographical environment, even totally free of signals and radio waves.  
+The possibility of integrating the entire linguistic dictionary locally has also been discarded since the application already holds the set of models for recognizing objects which leads to a large part of the memory occupied.
 
 ### Security and privacy
 Essential in every application. In this case, from the point of view of security, the application requires access to any external tool it needs (camera and gallery). No changes are made to the photo chosen to be analyzed and a copy of the new photo is always created containing the keywords of the recognized objects.  
-From the point of view of privacy, however, each photo is totally processed locally by the device itself, without sending information to external servers.
+From the point of view of privacy, however, each photo is processed locally by the device itself, without sending information to external servers.
 
 ### All in one
-As already mentioned in the **language** section, the strong point of the application is that it has all the functions completely locally without having to rely on a network in order to function. The motivation is based on the very concept of object recognition and the target users it is intended for.  
+As already mentioned in the **language** section, the strong point of the application is that it has all the functions completely locally without having to rely on a network to function. The motivation is based on the very concept of object recognition and the target users it is intended for.  
 An application of this type implies in most circumstances that its use is external. This involves possible places where the use of mobile networks is not possible or in roaming situations where you try to limit the use of data traffic as much as possible.  
-It was therefore decided to result in greater use of the phone memory while maintaining a use of the application totally free from any condition in which the phone itself may be.
+It was therefore decided to result in greater use of the phone memory while maintaining use of the application totally free from any condition in which the phone itself may be.
 
 # Identifying the users target
 ## Types of users
 Based on the design idea, the definition and construction of users must include:
-- Users who need to use an application capable of building tags / strings quickly and efficiently without them having to do it.
+- Users who need to use an application capable of building tags/strings quickly and efficiently without them having to do it.
 - Users who want to exploit search methods to quickly find an image or sets of images based on one or more keywords.
 - Users seeking knowledge of objects they do not know.
-- Users who travel to places and places and do not understand the use of certain items. Through recognition they can obtain a definition of the object and carry out appropriate research to understand its use.
+- Users who travel to places and places and do not understand the use of certain items. Through recognition, they can obtain a definition of the object and carry out appropriate research to understand its use.
 - Curious users want to verify that an object is the one they already know.
 - Users who want to be able to broaden their personal knowledge or verify the accuracy of an object or objects.
 
@@ -106,14 +106,14 @@ The analysis is based on defining the user based on:
 
 #### How
 The application is developed for Apple devices on iOS operating system and adapted to its most popular product: iPhone.  
-This choice is based on the two cornerstones of development: mobility and speed. Mobility refers to the possibility of allowing the use of the application in any condition the user is in. According to the report of the Mobility Report in 2019 there are 5.9 billion people who have a smartphone, this allows us to consider that in most cases the user who has a smartphone always keeps it at hand. This condition has favored the development of the application for a mobile environment compared to other developments for other fixed platforms.  
+This choice is based on the two cornerstones of development: mobility and speed. Mobility refers to the possibility of allowing the use of the application in any condition the user is in. According to the report of the Mobility Report in 2019, there are 5.9 billion people who have a smartphone, this allows us to consider that in most cases the user who has a smartphone always keeps it at hand. This condition has favored the development of the application for a mobile environment compared to other developments for other fixed platforms.  
 Speed is necessary as the user who downloads an application, especially mobile, wants it to be functional and ready to use as soon as it is opened.  
 
-Furthermore, we must consider the subject of object recognition which represents something very abstract and difficult to understand for a user (be it inexperienced or experienced). Based on this, the application must provide for a totally basic and simplistic use.
+Furthermore, we must consider the subject of object recognition which represents something very abstract and difficult to understand for a user (be it inexperienced or experienced). Based on this, the application must provide for totally basic and simplistic use.
 
 #### When
 Being developed for the mobile environment, the use of the application increases considerably as the smartphone is the most commonly used type of device.  
-In this case the user will use the application for short periods of time per session, while the use of the application itself can spread over long periods of time. That is, the analysis of an image requires little time and therefore the user does not need to continue as he has achieved his purpose by saving the image in the gallery but; once the operation has been verified, he will be led many times to use the application itself.
+In this case, the user will use the application for short periods per session, while the use of the application itself can spread over long periods. That is, the analysis of an image requires little time and therefore the user does not need to continue as he has achieved his purpose by saving the image in the gallery but; once the operation has been verified, he will be led many times to use the application itself.
 
 #### How to purchase
 The method of purchase means the method in which the user can obtain the application.  

@@ -116,8 +116,8 @@ Being developed for the mobile environment, the use of the application increases
 In this case, the user will use the application for short periods per session, while the use of the application itself can spread over long periods. That is, the analysis of an image requires little time and therefore the user does not need to continue as he has achieved his purpose by saving the image in the gallery but; once the operation has been verified, he will be led many times to use the application itself.
 
 #### How to purchase
-The method of purchase means the method in which the user can obtain the application.  
-The application does not violate any law and / or rule of the store in which it is inserted for distribution and is valid for all ages. Obviously this concerns the application and not how the user can use it, for example it is valid to distribute an application that is based on object recognition in every country but it is not valid for the user to use it to analyze photos that are forbidden to use it. 'acquisition.  
+The method of purchase means the method by which the user can obtain the application.  
+The application does not violate any law and/or rule of the store in which it is inserted for distribution and is valid for all ages. Obviously, this concerns the application and not how the user can use it, for example, it is valid to distribute an application that is based on object recognition in every country but it is not valid for the user to use it to analyze photos that are forbidden to use it. 'acquisition.  
 We can therefore proceed to consider that the application can be available globally in the Apple store, reaching all users.
 
 ### Mapping of subjects
@@ -139,7 +139,7 @@ To understand the most prevalent behavioral variables, it was decided to build a
 - Do you find the idea of being able to know the name of any object you photograph interesting?
   - Single answer: Yes, No, Indifferent.
 - If you find yourself alone and see something you don't know, what do you do?
-  - Multiple answer: I search the Internet by entering keywords of the object, I take a picture to send it to someone hoping to get information, I take a picture and try to look for it on the internet, Other [Specify].
+  - Multiple answers: I search the Internet by entering keywords of the object, I take a picture to send it to someone hoping to get information, I take a picture and try to look for it on the internet, Other [Specify].
 - Based on the previous answer, if there was an app on your iPhone that allows you to instantly recognize the object you have photographed, would you find it useful?
   - Single answer: Yes, No, Indifferent.
 - How important is privacy to you?
@@ -195,7 +195,7 @@ In *Other* replies have been received which involve: asking people nearby, compl
 </p>
 
 ### Behavioral patterns
-The unification of the recurring behavioral patters led to:  
+The unification of the recurring behavioral patterns led to:  
 - Interest in an app that uses artificial intelligence or a model that goes beyond the subject's imagination.
 - Get the information you need quickly.
 - Sense of cataloging and having a mental order on a whole.
@@ -207,7 +207,7 @@ Based on the survey carried out and other information, a user is preferred:
 - Subject to obtaining an immediate and precise response.
 - Tends to interface with one's smartphone if it does not have adequate information available.
 - Open to innovations that exploit artificial intelligence.
-- In charge of, in part, one's own privacy.
+- In charge of, in part, one's privacy.
 
 ## Personas
 Below are the three personas representing the set of reference users for the application.  
@@ -223,52 +223,52 @@ Below are the three personas representing the set of reference users for the app
   <img src="https://user-images.githubusercontent.com/22590804/116410215-d62d7080-a834-11eb-853b-3a86cf4d6028.png">
 </p>
 
-# Study of the a evaluation of usability
+# Study of the evaluation of usability
 ## General development
 The development of the application idea was based on the *"An interface design process"* model built from four blocks. Once the idea was defined and the users identified, a document was developed that describes the set of tasks that the application must perform. In particular, based on the idea that, given an image, the objects present are recognized and shown to the user as sequences of strings that identify the objects, the tasks include:  
 
-The image can be input to the application in two ways:  
+The image can be input into the application in two ways:  
 - Camera: you can instantly take a picture and decide whether to perform the analysis on object recognition.
 - Photo library: all photos in the photo library can be sent to the application.
 
-Before carrying out the analysis of the objects, the user is given the opportunity to make any changes such as:  
+Before carrying out the analysis of the objects, the user is allowed to make any changes such as:  
 - Selection changes: the user can choose whether to select a specific object within the image in such a way as to make object recognition more precise. If you subsequently decide to save the image, the application will save the entire image taken and not just the previously selected object. This choice allows the user to operate with the same image but meticulously selecting each object and then saving the whole image as a whole.
-- Image rotation: allows the image to be rotated left and / or right.
+- Image rotation: allows the image to be rotated left and/or right.
 - Scale: set of predefined dimensions for working with the image. For example, the user can render the image for analysis in 4: 3, 3: 2, 19: 9 and other dimensions.
 - Reset: cancels any changes that have been made.  
 
 Once the objects have been recognized, the user can optionally delete the sequence of strings that have been associated with the object. Once finished, the image is saved in the photo library as a new image without overwriting the old one. The new image will have stored as metadata the set of strings chosen by the user.  
-The latter can type one of these strings in the search field of the photo library to immediately obtain the image and / or set of images containing that word.  
-The analysis and set of activities required for each task is discussed later.  
+The latter can type one of these strings in the search field of the photo library to immediately obtain the image and/or set of images containing that word.  
+The analysis and set of activities required for each task are discussed later.  
 
-Considering the feasible idea, we moved on to the product elaboration phase through the development of a prototype. This was conceived in the first part of the low fidelity wire frame typology. In this case, the evaluation on the refinement of tasks and usability was subject to the internal members of the project and a limited number of people among the survey participants. Subsequently the prototype was modeled in such a way as to become interactive and usable by the testers chosen through training tests.  
+Considering the feasible idea, we moved on to the product elaboration phase through the development of a prototype. This was conceived in the first part of the low fidelity wireframe typology. In this case, the evaluation on the refinement of tasks and usability was subject to the internal members of the project and a limited number of people among the survey participants. Subsequently, the prototype was modeled in such a way as to become interactive and usable by the testers chosen through training tests.  
 
-We then moved on to the usability test phase, discussed lateer.  
-During the test phases we started to develop the code-side bases of the actual application following the development of the prototype up to the complete software.
+We then moved on to the usability test phase, discussed later.  
+During the test phases, we started to develop the code-side bases of the actual application following the development of the prototype up to the complete software.
 
 ## Ben Shneiderman
 They represent a fundamental set of rules on which the application was developed, from the prototyping phase to the final software. In particular:  
 - Consistency at all costs: colors, layout and lettering are consistent with every part of the system. The font used for the character strings is the same for the system and for each application. The use of **bold** allows to enhance and attract the user's attention to express important information. The use of colors adapts to the state of the system, from the light to the dark version, for greater consistency.  Finally, the layout has been built to remove all non-salient information to give greater immersion.
 - General usability: based on the target of users, the needs of the different types of users are recognized, considering users of "almost" all ages with different technological backgrounds. The interface is made simple and clear, and at the same time elegant and captivating.
-- Offer training feedback: every action by the user is associated with a response from the system. Any operation the user performs on the interface, the latter will provide feedback, even imperceptible, completely visible and understandable to the user. For example, when the user presses a button this will make an animation on his color to give the idea that it has been physically pressed.
+- Offer training feedback: every action by the user is associated with a response from the system. Any operation the user performs on the interface, latter will provide feedback, even imperceptible, completely visible and understandable to the user. For example, when the user presses a button this will make an animation on his color to give the idea that it has been physically pressed.
 - Dialogue with users: each sequence of actions has a beginning, an intermediate point and an end that is totally understandable to the user. For example, if the user analyzes an image, he will import it, modify it and finally obtain the final point will be given by the system which shows the list of recognized objects.
 - Handling of errors: the simplicity of the development of the interface has made it possible to minimize the possibility of errors. Any errors such as the lack of access to a photo, the inability to recognize objects in an image and others are managed through special pop-ups and/or writings that clearly show the user the type of error that occurred.
-- Allow to go back: the user has full control of the interface. He can always return to a previous screen in relation to the continuity of the same. That is, if the user passes from screen A to B and from B to C, if he goes back he will pass from C to B and not to A, thus following the precise flow of the screens.
+- Allow to go back: the user has full control of the interface. He can always return to a previous screen about the continuity of the same. That is, if the user passes from screen A to B and from B to C, if he goes back he will pass from C to B and not to A, thus following the precise flow of the screens.
 - Ensure user control: the user is at the center of the system. The interface responds to every input without hesitation.
 - Reduce short-term memory overload: the application was designed to comply with the rules of number 7. There is no information that the user must keep memorized or particular icons associated with specific functions.
 
 ## Fitts law
-One of the most frequent actions performed by those who interact with a system is to move the pointer or finger on a target. In this case the main interface holds the button to import photos in the center of the screen, not only for a better visual experience but to take full advantage of Fitts' law, that is to have a completely reduced time to reach by a finger the specific button. Screens tend to get bigger and bigger but the grip of a smartphone always tends to bring the thumb towards and beyond the center of the screen. Inserting the buttons too low would have led to a handle that for very large devices can cause problems in holding the smartphone with one hand, instead with a centered button you try to favor the grip and not ask for effort on the part of the 'user.  
-The buttons for editing a photo, on the other hand, are placed at the bottom as it was preferred to give space to the vision of the user's image and the complete possibility of being able to make series of cuts to the image in real time without pressing any buttons.  
+One of the most frequent actions performed by those who interact with a system is to move the pointer or finger on a target. In this case, the main interface holds the button to import photos in the center of the screen, not only for a better visual experience but to take full advantage of Fitts' law, that is to have a completely reduced time to reach by a finger the specific button. Screens tend to get bigger and bigger but the grip of a smartphone always tends to bring the thumb towards and beyond the center of the screen. Inserting the buttons too low would have led to a handle that for very large devices can cause problems in holding the smartphone with one hand, instead of, with a centered button you try to favor the grip and not ask for effort on the part of the 'user.  
+The buttons for editing a photo, on the other hand, are placed at the bottom as it was preferred to give space to the vision of the user's image and the complete possibility of being able to make series of cuts to the image in real-time without pressing any buttons.  
 Finally, each screen holds the possibility of being able to go back with the appropriate buttons at the top left, as per Apple's development rules, but in addition it supports the possibility of switching to the previous screen by swiping the finger from the left edge to the right, in any vertical point on the edge. This allows the user to go back the screen without having to reach the top of the bar to press the button.  
 The saving has been inserted in the bar at the top right as the concept of saving the image allows the completion of the application and is seen as something in which the user must be sure you want to terminate and therefore not *"reachable"* in a super immediate way like the button to import an image.
 
-## Gestald Laws
+## Gestalt Laws
 **"The set is the sum of its parts"**. 
 
-Gestal laws play a very important role in defining the interface. For example, considering the following images below we can see the use of some laws.  
+Gestalt laws play a very important role in defining the interface. For example, considering the following images below we can see the use of some laws.  
 The law of proximity and closure allows you to collect as a single unit elements such as *camera* and *photo library* being tools for image selection, or the whole of recognized objects. All these elements are separated by lines using the law of continuity of direction that allows you to identify each object separately but see them as a single entity.  
-The law of similarity allows to recognize elements to be pressed such as *camera*, *photo library* and *cancel* and others on which to immediately catch the attention such as the writing of the recognized objects. Finally, the law of past experience is enclosed in the export button of the image at the top right in the image used and recognized by iOS users to share and export.
+The law of similarity allows recognizing elements to be pressed such as *camera*, *photo library* and *cancel* and others on which to immediately catch the attention such as the writing of the recognized objects. Finally, the law of past experience is enclosed in the export button of the image at the top right in the image used and recognized by iOS users to share and export.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116411763-4c7ea280-a836-11eb-9599-ca5ef9c0bdb7.png">
@@ -298,7 +298,7 @@ The application has the following features:
 - Changing the image by scaling.
 - Reset image changes.
 - Undoing image editing.
-- Object recognition based on the given image.
+- Object recognition is based on the given image.
 - Creation of table containing recognized objects.
 - Deletion of one or more recognized objects by the user.
 - Saving the image with the corresponding metadata on the recognized objects.
@@ -369,7 +369,7 @@ The structure of the Tag tab is mainly composed of a **header** that contains th
 
 The header is structured through a coloring that allows the user to identify a group of tags in a simple and immediate way. Using the index, however, the user can scroll directly to the specific tag group.  
 
-In this section, as already shown before, the *laws of the Gestald* come into play. In particular, we can focus on:  
+In this section, as already shown before, the *laws of the Gestalt* come into play. In particular, we can focus on:  
 - Law of proximity: all tags defined by the appropriate header are identified as a single unit as they define the same set of tags starting with the same letter.
 - Law of similarity: each letter identifying the header is considered as a single unit that differentiates the subsets of tags.
 - Law of continuity of direction: the use of lines delimiting the surface that point towards the same direction more easily make up the sense of unity of the information being displayed.
@@ -443,7 +443,7 @@ Each feature present in the settings panel is built on the basis of an image tha
   <img src="https://user-images.githubusercontent.com/22590804/116418059-15ab8b00-a83c-11eb-89f3-ea343af32d9f.png">
 </p>
 
-The *Confidence Level* function is placed as the first element of the list being representative for the modification of the application behavior. Through these functions the user has control over data processing for object recognition. Through the use of the Gestald laws we return to the use of the law of closeness, similarity, closure and others. In particular:
+The *Confidence Level* function is placed as the first element of the list being representative for the modification of the application behavior. Through these functions the user has control over data processing for object recognition. Through the use of the Gestalt laws we return to the use of the law of closeness, similarity, closure and others. In particular:
 
 - Law of proximity: similar settings are brought closer together to be highlighted as a single unit. For example *Clear Cache* and *Delete all data* both express similar actions that go to delete data.
 - Law of similarity: elements that refer to another page such as *Confidence Level* and *About* are described with a specific color and an identification symbol that refers to the concept of continuity of functionality. Instead, the other features are that identify actions, as described by Apple's HIG for iOS, which refer to pop-up gods.

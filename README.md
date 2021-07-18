@@ -377,24 +377,24 @@ In this section, as already shown before, the *laws of the Gestalt* come into pl
 By clicking on the name of a tag, the *Grid* interface is called, which contains the set of all images filtered for the chosen tag.
 
 ### Map
-The map allows the user to obtain a localized view of their images through an *interactive* interface. It is possible to interact with the map by means of gestures that make use of the user's knowledge through **redundancy** and **coherence**.  
-For example with redundancy the user can zoom in on the map in a specific area both through a double tap on the screen that through pinch in, instead through coherence, the set of gestures now present in standard use of touch screen devices are used.
+The map allows the user to obtain a localized view of their images through an *interactive* interface. It is possible to interact with the map using gestures that make use of the user's knowledge through **redundancy** and **coherence**.  
+For example with redundancy the user can zoom in on the map in a specific area both through a double tap on the screen that through pinch in, instead of through coherence, the set of gestures now present in the standard use of touch screen devices are used.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116414966-40481480-a839-11eb-9182-498af9ac30c0.png">
 </p>
 
 Another call to consistency is the use of the orange pin identifying the user's current position. The use of this specific color allows the user to instantly perceive its location.  
-Each image on the map is enclosed in a square in order to take advantage of the closing law and allow you to associate each single image in a more univocal way. The use of square thumbnails falls within the canon of consistency with the entire application (for example in the *Grid* section the image grid is constructed using square shapes).  
+Each image on the map is enclosed in a square to take advantage of the closing law and allow you to associate every single image in a more univocal way. The use of square thumbnails falls within the canon of consistency with the entire application (for example in the *Grid* section the image grid is constructed using square shapes).  
 
-You can interact with each image in the map by selecting one of them. This interaction is partly **hidden** from the user as it takes advantage of part of the latter's experience on the use of the application itself. Since the application has been developed keeping the concept of image as a basic point, each image has maximum interactivity through the actions of the user. This avoided explicitly expressing the possibility of pressing on an image within the map.
+You can interact with each image on the map by selecting one of them. This interaction is partly **hidden** from the user as it takes advantage of part of the latter's experience on the use of the application itself. Since the application has been developed keeping the concept of image as a basic point, each image has maximum interactivity through the actions of the user. This avoided explicitly expressing the possibility of pressing on an image within the map.
 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116414971-41794180-a839-11eb-8b24-c5a69a2a5e02.png">
 </p>
 
-By selecting an image, the user will have a partial preview of the tags stored in the photo itself. The new interface part benefits from *ellipsis* and a *info* button. The former have the purpose of expressing to the user that the information is represented in its partiality and not in its entirety. This leads to the definition of a beginning of a sequence of actions that the user will conclude by interacting with the *info* button. Performing this interaction calls up the selected photo viewing interface, giving the user a sense of satisfaction at having completed an activity.
+By selecting an image, the user will have a partial preview of the tags stored in the photo itself. The new interface part benefits from *ellipsis* and an *info* button. The former has the purpose of expressing to the user that the information is represented in its partiality and not in its entirety. This leads to the definition of a beginning of a sequence of actions that the user will conclude by interacting with the *info* button. Performing this interaction calls up the selected photo viewing interface, giving the user a sense of satisfaction at having completed an activity.
 
 ## Image View
 Allows you to view the image chosen in your entirety.
@@ -409,18 +409,18 @@ As previously stated, to obtain greater user immersion, the tab bar is hidden. S
   <img src="https://user-images.githubusercontent.com/22590804/116417041-358e7f00-a83b-11eb-888d-b1c1b73b65ac.png">
 </p>
 
-The nav bar is built in such a way as to enclose the set of information associated with the image and not to hinder the user on the focal point: the image. The bar encloses the set of tags, showing them in a scrolling animation.  
-The use of animation focuses the user on the entirety of information present in the bar. When interacting with the image, however, the animation suffers a momentary suspension as the user is focusing on the image and not on the bar.  
+The navbar is built in such a way as to enclose the set of information associated with the image and not to hinder the user on the focal point: the image. The bar encloses the set of tags, showing them in a scrolling animation.  
+The use of animation focuses the user on the entirety of the information present in the bar. When interacting with the image, however, the animation suffers a momentary suspension as the user is focusing on the image and not on the bar.  
 
 The subtitle expresses the total number of images that can be displayed by scrolling. The information of the totality of the photos present identifies a sequence of actions organized with a beginning (opening an image), an intermediate point (scrolling through the images) and a conclusion (the user reaches the maximum number of photos on which he can operate).  
-Lastly, the nav bar consists of two buttons:
-- Edit tags: calls the interface for managing tags described in before.
+Lastly, the navbar consists of two buttons:
+- Edit tags: calls the interface for managing tags described before.
 - Save image: saves the selected image in the default gallery.
 
 The use of coherence comes into play again by exploiting images that are coherent with the action that takes place.
 
 ## Tag management
-The interface allows you to interact with the tags present in an image and / or recognized by the application.
+The interface allows you to interact with the tags present in an image and/or recognized by the application.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116417447-8d2cea80-a83b-11eb-84de-5361e04d753a.jpeg">
@@ -433,11 +433,11 @@ Based on this structure, the user can delete a chosen tag by scrolling to the le
   <img src="https://user-images.githubusercontent.com/22590804/116417568-ac2b7c80-a83b-11eb-8863-f5ac2dd52c8d.jpeg">
 </p>
 
-Using the *Plus* button the user can add one or more tags to the reference image. The interaction with the button leads to the opening of the keyboard and a panel that specifies in a simple and effective way the action to be performed.  
+Using the *Plus* button the user can add one or more tags to the reference image. The interaction with the button leads to the opening of the keyboard and a panel that specifies simply and effectively the action to be performed.  
 The panel consists of two buttons that cancel or add the user's tag. Both have different colors and in particular the *Add item* button is represented with the red color. Normally the use of this color expresses dangerous or destructive actions while in this case it outlines the completeness of the action of adding a tag. Since the user has previously interacted with the *Plus* button it is assumed that he wants to complete his operation, so the use of a contrasting color calls for immediacy to conclude the action.
 
 ## Preferences
-Each feature present in the settings panel is built on the basis of an image that holds the main aspect of the feature itself. For example, the *Delete all data* mode is flanked by a trash can icon that refers to the concept of elimination, the *i* of *Show Tutorial* reports to the information of the info point where to obtain details on the use of the application.
+Each feature present in the settings panel is built based on an image that holds the main aspect of the feature itself. For example, the *Delete all data* mode is flanked by a trash can icon that refers to the concept of elimination, the *i* of *Show Tutorial* reports to the information of the info point where to obtain details on the use of the application.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116418059-15ab8b00-a83c-11eb-89f3-ea343af32d9f.png">
@@ -447,7 +447,7 @@ The *Confidence Level* function is placed as the first element of the list being
 
 - Law of proximity: similar settings are brought closer together to be highlighted as a single unit. For example *Clear Cache* and *Delete all data* both express similar actions that go to delete data.
 - Law of similarity: elements that refer to another page such as *Confidence Level* and *About* are described with a specific color and an identification symbol that refers to the concept of continuity of functionality. Instead, the other features are that identify actions, as described by Apple's HIG for iOS, which refer to pop-up gods.
-- Law of closure: Each pair of elements are closed by a horizontal line that covers the entire horizontal space of the screen. This makes it possible to strengthen the concept of unity of specific pairs of features. Inside them, however, the horizontal line starts from the beginning of the wording of the functionality to mark the diversification of the actions that can be performed.
+- Law of closure: Each pair of elements are closed by a horizontal line that covers the entire horizontal space of the screen. This makes it possible to strengthen the concept of the unity of specific pairs of features. Inside them, however, the horizontal line starts from the beginning of the wording of the functionality to mark the diversification of the actions that can be performed.
 - Law of good form: elements are described by regular, simple and clean geometric shapes.
 
 One can fall into the mistake of considering it inappropriate to have two features such as *Clear Cache* and *Delete all data* close together. This could lead to user errors in running one feature instead of another. This possible possibility is abolished by the use of confirmation requests and the use of harmless inputs by marking dangerous actions with colors.  

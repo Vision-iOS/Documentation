@@ -318,8 +318,8 @@ Below is the state machine diagram.
 ## Interfaces analysis
 
 ### Tab-bar
-The layout of a tab bar allows the user to access the main screens of the application. Each screen selected is highlighted by means of the appropriate color that highlights the state in which the system is located.  
-In addition to a descriptive text of the screen, there is a representative icon. The latter allows you to take advantage of the recall to the user's past experience by retrieving information through association. In this way the user, even a novice, is able to identify the appropriate screens of the application without having to focus on the textual part.
+The layout of a tab bar allows the user to access the main screens of the application. Each screen selected is highlighted through the appropriate color that highlights the state in which the system is located.  
+In addition to a descriptive text of the screen, there is a representative icon. The latter allows you to take advantage of the recall to the user's past experience by retrieving information through association. In this way the user, even a novice, can identify the appropriate screens of the application without having to focus on the textual part.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116413112-9caa3480-a837-11eb-9453-672d7385212d.jpg">
@@ -330,7 +330,7 @@ The bar and associated interfaces hold a limited amount of information that avoi
 
 ### Search
 The search section allows the user to operate with the entire set of images on which he has carried out the analysis. The search is divided into three *tab* to better diversify the actions that the user can perform on the same data.  
-Each tab has a search bar to filter information based on the input transcribed by the user. The search bar is structured to offer the best user usability. Through the image below the user can perform the entire deletion of what he has typed using the appropriate button with the *X* icon, avoiding having to delete each single character using the keyboard . Using the *Cancel* button the interface is restored in its entirety.
+Each tab has a search bar to filter information based on the input transcribed by the user. The search bar is structured to offer the best user usability. Through the image below the user can perform the entire deletion of what he has typed using the appropriate button with the *X* icon, avoiding having to delete every single character using the keyboard. Using the *Cancel* button the interface is restored in its entirety.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22590804/116413476-f0b51900-a837-11eb-9b41-7221c21577af.jpg">
@@ -367,12 +367,12 @@ The structure of the Tag tab is mainly composed of a **header** that contains th
   <img src="https://user-images.githubusercontent.com/22590804/116414550-da5b8d00-a838-11eb-9b24-37f437775b5f.jpg">
 </p>
 
-The header is structured through a coloring that allows the user to identify a group of tags in a simple and immediate way. Using the index, however, the user can scroll directly to the specific tag group.  
+The header is structured through a coloring that allows the user to identify a group of tags simply and immediately. Using the index, however, the user can scroll directly to the specific tag group.  
 
 In this section, as already shown before, the *laws of the Gestalt* come into play. In particular, we can focus on:  
 - Law of proximity: all tags defined by the appropriate header are identified as a single unit as they define the same set of tags starting with the same letter.
 - Law of similarity: each letter identifying the header is considered as a single unit that differentiates the subsets of tags.
-- Law of continuity of direction: the use of lines delimiting the surface that point towards the same direction more easily make up the sense of unity of the information being displayed.
+- Law of continuity of direction: the use of lines delimiting the surface that point towards the same direction more easily makes up the sense of unity of the information being displayed.
 
 By clicking on the name of a tag, the *Grid* interface is called, which contains the set of all images filtered for the chosen tag.
 
